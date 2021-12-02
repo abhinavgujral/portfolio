@@ -240,8 +240,8 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 100vh;
+  max-width: 100%;
+  height: 70vh;
   background: url("../img/crop_anime.png") top right no-repeat;
   background-size: contain;
   position: relative;
@@ -1001,7 +1001,14 @@ section {
 .rounded_large{
   border-radius: 2.25rem;
 }
+.text-s{
+  font-size: small;
+  line-height: 1 !important ;
 
+}
+.rounded_xl{
+  border-radius: 7.25rem;
+}
 
 .cards {
   transition: all 0.2s ease;
@@ -1019,6 +1026,13 @@ section {
   background-color: #033f77;
 
 }
+
+/* @media  ( min-width=992px) {
+
+  .facts .count-box span {
+    font-size:20px !important ; 
+  }
+} */
 
 
 
