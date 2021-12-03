@@ -262,3 +262,18 @@
   });
 
 })()
+
+function send_email(){
+  let input=document.getElementById("register_email_input").value;
+
+  if(input===""){
+    alert("enter email !")
+  }else{
+  let load_icon =document.getElementById("loading_display");
+  load_icon.className="d-block";
+  setTimeout(()=>{
+      load_icon.className="d-none";
+      document.getElementById("completed_loading").className="d-block";
+  },1500);
+}
+}
