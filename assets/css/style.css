@@ -1027,12 +1027,15 @@ section {
 
 }
 
-/* @media  ( min-width=992px) {
 
-  .facts .count-box span {
-    font-size:20px !important ; 
-  }
-} */
+ @media  ( max-width=992px) {
+
+ #intro{
+   text-align: center;
+ }
+ 
+
+}
 
 
 
